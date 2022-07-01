@@ -6,7 +6,7 @@
 }
 
 body{
-    background: url(../Asset/background.jpg) 50%/cover no-repeat ;
+    background: url(./Asset/background.jpg) 50%/cover no-repeat ;
     height: 95vh;
 }
 
