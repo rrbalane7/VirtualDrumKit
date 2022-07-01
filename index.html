@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+    <title>JS Drum Kit</title>
+</head>
+<body>
+    <div class="header">
+        <h1>Virtual Drum kit</h1>
+        <p>&copy RRB Inspired by Wes Bos #JavaScript30 </p>
+    </div>
+    <div id="main-cont">
+        <div data-key="65" class="drum">
+            <div class="letter-tag">A</div>
+            <div class="drum-type">Crash</div>
+        </div>
+        <div data-key="83" class="drum">
+            <div class="letter-tag">S</div>
+            <div class="drum-type">Ride</div>
+        </div>
+        <div data-key="68" class="drum">
+            <div class="letter-tag">D</div>
+            <div class="drum-type">Hi-hat</div>
+        </div>
+        <div data-key="70" class="drum">
+            <div class="letter-tag">F</div>
+            <div class="drum-type">Tom-2</div>
+        </div>
+        <div data-key="72" class="drum">
+            <div class="letter-tag">H</div>
+            <div class="drum-type">Tom-1</div>
+        </div>
+        <div data-key="74" class="drum">
+            <div class="letter-tag">J</div>
+            <div class="drum-type">Snare</div>
+        </div>
+        <div data-key="75" class="drum">
+            <div class="letter-tag">K</div>
+            <div class="drum-type">Kick</div>
+        </div>
+        <div data-key="76" class="drum">
+            <div class="letter-tag">L</div>
+            <div class="drum-type">FloorTom</div>
+        </div>
+    </div>
+    
+    
+    <audio data-key="65" src="/Asset/Crash.mp3"></audio>
+    <audio data-key="83" src="/Asset/Ride.mp3"></audio>
+    <audio data-key="68" src="/Asset/Hi-hat.mp3"></audio>
+    <audio data-key="70" src="/Asset/Tom-2.mp3"></audio>
+    <audio data-key="72" src="/Asset/Tom-1.mp3"></audio>
+    <audio data-key="74" src="/Asset/Snare.mp3"></audio>
+    <audio data-key="75" src="/Asset/Kick.mp3"></audio>
+    <audio data-key="76" src="/Asset/Floor-Tom.mp3"></audio>
+</body>
+</html>
